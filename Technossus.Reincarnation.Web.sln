@@ -5,6 +5,14 @@ VisualStudioVersion = 15.0.28010.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Technossus.Reincarnation.Web", "Technossus.Reincarnation.Web\Technossus.Reincarnation.Web.csproj", "{A49DA20A-9F2E-482B-A686-52BE3F79A0B0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Technossus.Reincarnation.WebApi", "Technossus.Reincarnation.WebApi\Technossus.Reincarnation.WebApi.csproj", "{9D0C86C7-9DF6-4E40-96AB-962C0862CF17}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Technossus.Reincarnation.DB", "Technossus.Reincarnation.DB\Technossus.Reincarnation.DB.sqlproj", "{25214FE4-C1F3-4C79-BEDA-42CA6FA34EB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Technossus.Reincarnation.Models", "Technossus.Reincarnation.Models\Technossus.Reincarnation.Models.csproj", "{605E0945-1C7A-4F33-BB4F-43E498960FC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Technossus.Reincarnation.EFConfiguration", "Technossus.Reincarnation.EFConfiguration\Technossus.Reincarnation.EFConfiguration.csproj", "{A127265B-722E-445C-A9E4-1110FFC241A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +23,24 @@ Global
 		{A49DA20A-9F2E-482B-A686-52BE3F79A0B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A49DA20A-9F2E-482B-A686-52BE3F79A0B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A49DA20A-9F2E-482B-A686-52BE3F79A0B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D0C86C7-9DF6-4E40-96AB-962C0862CF17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D0C86C7-9DF6-4E40-96AB-962C0862CF17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D0C86C7-9DF6-4E40-96AB-962C0862CF17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D0C86C7-9DF6-4E40-96AB-962C0862CF17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25214FE4-C1F3-4C79-BEDA-42CA6FA34EB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25214FE4-C1F3-4C79-BEDA-42CA6FA34EB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25214FE4-C1F3-4C79-BEDA-42CA6FA34EB2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{25214FE4-C1F3-4C79-BEDA-42CA6FA34EB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25214FE4-C1F3-4C79-BEDA-42CA6FA34EB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25214FE4-C1F3-4C79-BEDA-42CA6FA34EB2}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{605E0945-1C7A-4F33-BB4F-43E498960FC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{605E0945-1C7A-4F33-BB4F-43E498960FC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{605E0945-1C7A-4F33-BB4F-43E498960FC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{605E0945-1C7A-4F33-BB4F-43E498960FC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A127265B-722E-445C-A9E4-1110FFC241A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A127265B-722E-445C-A9E4-1110FFC241A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A127265B-722E-445C-A9E4-1110FFC241A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A127265B-722E-445C-A9E4-1110FFC241A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
