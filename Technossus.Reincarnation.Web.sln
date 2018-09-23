@@ -11,7 +11,9 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Technossus.Reincarnation.DB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Technossus.Reincarnation.Models", "Technossus.Reincarnation.Models\Technossus.Reincarnation.Models.csproj", "{605E0945-1C7A-4F33-BB4F-43E498960FC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Technossus.Reincarnation.EFConfiguration", "Technossus.Reincarnation.EFConfiguration\Technossus.Reincarnation.EFConfiguration.csproj", "{A127265B-722E-445C-A9E4-1110FFC241A8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Technossus.Reincarnation.Data", "Technossus.Reincarnation.EFConfiguration\Technossus.Reincarnation.Data.csproj", "{A127265B-722E-445C-A9E4-1110FFC241A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Technossus.Reincarnation.Core", "Technossus.Reincarnation.Core\Technossus.Reincarnation.Core.csproj", "{1B6A4483-D89C-4121-A796-9E8937FD6065}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,10 @@ Global
 		{A127265B-722E-445C-A9E4-1110FFC241A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A127265B-722E-445C-A9E4-1110FFC241A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A127265B-722E-445C-A9E4-1110FFC241A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B6A4483-D89C-4121-A796-9E8937FD6065}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B6A4483-D89C-4121-A796-9E8937FD6065}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B6A4483-D89C-4121-A796-9E8937FD6065}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B6A4483-D89C-4121-A796-9E8937FD6065}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

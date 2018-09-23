@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "Dashboard";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Dashboard</h2>
+<upload-file></upload-file>
+<div data-bind="text:test()">Loading...</div>
+@section require_viewmodel {
+    <script >
+        requirejs(["/Scripts/View_Models/Dashboard/Dashboard.vm.js"]);
+    </script>
+}
+

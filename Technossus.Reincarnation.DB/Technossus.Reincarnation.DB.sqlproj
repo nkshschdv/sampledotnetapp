@@ -57,5 +57,17 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+    <Folder Include="dbo" />
+    <Folder Include="dbo\Schemas" />
+    <Folder Include="Publish Profiles\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="dbo\Schemas\File.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Publish Profiles\Local.Publish.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="Technossus.Reincarnation.DB.refactorlog" />
   </ItemGroup>
 </Project>

@@ -6,6 +6,19 @@
     <title>@ViewBag.Title - My ASP.NET Application</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jquery")
+
+
+    @Scripts.Render("~/bundles/knockoutjs")
+    @Scripts.Render("~/bundles/knockout.mapping-latest.js")
+    @Scripts.Render("~/bundles/knockout.mapping-latest.debug.js")
+    @Scripts.Render("~/bundles/require.config.js")
+    <script type="text/javascript" src="~/Configurations/require.config.js"></script>
+
+    @Scripts.Render("~/bundles/require.js")
+    @Scripts.Render("~/bundles/ko.components.js");
+
+
 </head>
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
@@ -28,15 +41,19 @@
         </div>
     </div>
     <div class="container body-content">
-        @RenderBody()
+        <div id="mainsection" class="content-wrapper">
+            @RenderBody()
+        </div>
         <hr />
         <footer>
             <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
         </footer>
     </div>
+    @if (IsSectionDefined("require_viewmodel"))
+    {
+        @RenderSection("require_viewmodel")
+    }
 
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
 </body>
 </html>
