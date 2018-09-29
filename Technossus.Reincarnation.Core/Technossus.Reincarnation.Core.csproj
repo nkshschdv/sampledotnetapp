@@ -64,7 +64,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Technossus.Reincarnation.EFConfiguration\Technossus.Reincarnation.Data.csproj">
+    <ProjectReference Include="..\Technossus.Reincarnation.Data\Technossus.Reincarnation.Data.csproj">
       <Project>{a127265b-722e-445c-a9e4-1110ffc241a8}</Project>
       <Name>Technossus.Reincarnation.Data</Name>
     </ProjectReference>

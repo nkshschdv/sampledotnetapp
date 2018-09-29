@@ -8,7 +8,7 @@ namespace Technossus.Reincarnation.Core.Managers
 {
     public class UploadManager : BaseManager, IUploadManager
     {
-        private ReincarnationContext _context;
+        private readonly ReincarnationContext _context;
         public UploadManager(ReincarnationContext context) : base(context) => _context = context;
         public bool UploadFileToBlob(File file)
         {
