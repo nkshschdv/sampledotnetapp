@@ -12,9 +12,4 @@
     <ScriptDatabaseOptions>False</ScriptDatabaseOptions>
     <GenerateSmartDefaults>True</GenerateSmartDefaults>
   </PropertyGroup>
-  <ItemGroup>
-    <SqlCmdVariable Include="RequireSeedData">
-      <Value>No</Value>
-    </SqlCmdVariable>
-  </ItemGroup>
 </Project>
